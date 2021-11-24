@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E659FB22733971E000D3F54 /* celdaSintomas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E659FB12733971E000D3F54 /* celdaSintomas.swift */; };
+		3E659FB52733A270000D3F54 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E659FB42733A270000D3F54 /* CustomTableViewCell.swift */; };
+		3E7D573D27189AF700435630 /* ViewControllerCambiarContrasena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D573C27189AF700435630 /* ViewControllerCambiarContrasena.swift */; };
+		3EC75D6B27193443006FD151 /* ViewControllerCofigPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC75D6A27193443006FD151 /* ViewControllerCofigPerfil.swift */; };
+		3EEAEAEA2718A6AA00F3A2EF /* ViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEAEAE92718A6AA00F3A2EF /* ViewControllerMenu.swift */; };
+		6442236E274C46830026F3B0 /* ViewControllerCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442236D274C46830026F3B0 /* ViewControllerCharts.swift */; };
+		645A5A28273DB5AC000CD6B2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 645A5A27273DB5AC000CD6B2 /* FirebaseAuth */; };
+		645A5A2A273DB5AC000CD6B2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 645A5A29273DB5AC000CD6B2 /* FirebaseDatabase */; };
+		645A5A2C273DB5AC000CD6B2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 645A5A2B273DB5AC000CD6B2 /* FirebaseFirestore */; };
+		645A5A32273DB6C6000CD6B2 /* fireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645A5A31273DB6C6000CD6B2 /* fireBase.swift */; };
+		64E90B30274E070400410051 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64E90B2F274E070400410051 /* GoogleService-Info.plist */; };
+		C473F2F26D3A4B020AAB913E /* Pods_ProyectoTEC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2411556C3B513E9A8CFB65E7 /* Pods_ProyectoTEC.framework */; };
+		DA58267A273978F3002BA4F5 /* TableViewControllerDetallesPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA582679273978F3002BA4F5 /* TableViewControllerDetallesPaciente.swift */; };
+		DA58267C27397E19002BA4F5 /* ViewControllerDoctorPaciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58267B27397E19002BA4F5 /* ViewControllerDoctorPaciente.swift */; };
+		EB1B5F272718831B00F9373F /* GoogleService-InfoLOL.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB1B5F262718831B00F9373F /* GoogleService-InfoLOL.plist */; };
+		EB2D88DB272706C6006EC15A /* ViewControllerDoctorVistaGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D88DA272706C6006EC15A /* ViewControllerDoctorVistaGeneral.swift */; };
+		EB3CF02E270FB039000E4508 /* ViewControllerRegistrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3CF02D270FB039000E4508 /* ViewControllerRegistrate.swift */; };
+		EB8682F4271510050076759B /* ViewControllerOlvidarContrasena.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8682F3271510050076759B /* ViewControllerOlvidarContrasena.swift */; };
+		EBAA1B04270B529400AD32AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1B03270B529400AD32AB /* AppDelegate.swift */; };
+		EBAA1B06270B529400AD32AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1B05270B529400AD32AB /* SceneDelegate.swift */; };
+		EBAA1B08270B529400AD32AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1B07270B529400AD32AB /* ViewController.swift */; };
+		EBAA1B0B270B529400AD32AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1B09270B529400AD32AB /* Main.storyboard */; };
+		EBAA1B0D270B529B00AD32AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1B0C270B529B00AD32AB /* Assets.xcassets */; };
+		EBAA1B10270B529B00AD32AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1B0E270B529B00AD32AB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2411556C3B513E9A8CFB65E7 /* Pods_ProyectoTEC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoTEC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E659FB12733971E000D3F54 /* celdaSintomas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaSintomas.swift; sourceTree = "<group>"; };
+		3E659FB42733A270000D3F54 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		3E7D573C27189AF700435630 /* ViewControllerCambiarContrasena.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCambiarContrasena.swift; sourceTree = "<group>"; };
+		3EC75D6A27193443006FD151 /* ViewControllerCofigPerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCofigPerfil.swift; sourceTree = "<group>"; };
+		3EEAEAE92718A6AA00F3A2EF /* ViewControllerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu.swift; sourceTree = "<group>"; };
+		58B1DCE690A4D6BD42CA714F /* Pods-ProyectoTEC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoTEC.release.xcconfig"; path = "Target Support Files/Pods-ProyectoTEC/Pods-ProyectoTEC.release.xcconfig"; sourceTree = "<group>"; };
+		6442236D274C46830026F3B0 /* ViewControllerCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCharts.swift; sourceTree = "<group>"; };
+		645A5A31273DB6C6000CD6B2 /* fireBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fireBase.swift; sourceTree = "<group>"; };
+		64E90B2F274E070400410051 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA582679273978F3002BA4F5 /* TableViewControllerDetallesPaciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerDetallesPaciente.swift; sourceTree = "<group>"; };
+		DA58267B27397E19002BA4F5 /* ViewControllerDoctorPaciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDoctorPaciente.swift; sourceTree = "<group>"; };
+		EB1B5F262718831B00F9373F /* GoogleService-InfoLOL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-InfoLOL.plist"; sourceTree = "<group>"; };
+		EB2D88DA272706C6006EC15A /* ViewControllerDoctorVistaGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDoctorVistaGeneral.swift; sourceTree = "<group>"; };
+		EB3CF02D270FB039000E4508 /* ViewControllerRegistrate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistrate.swift; sourceTree = "<group>"; };
+		EB8682F3271510050076759B /* ViewControllerOlvidarContrasena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOlvidarContrasena.swift; sourceTree = "<group>"; };
+		EBAA1B00270B529400AD32AB /* ProyectoTEC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoTEC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAA1B03270B529400AD32AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBAA1B05270B529400AD32AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBAA1B07270B529400AD32AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBAA1B0A270B529400AD32AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBAA1B0C270B529B00AD32AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAA1B0F270B529B00AD32AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBAA1B11270B529B00AD32AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE5DACB270BC59700C7A8F3 /* ProyectoTEC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProyectoTEC.entitlements; sourceTree = "<group>"; };
+		ED7B191AFA85FE5BCCF0E717 /* Pods-ProyectoTEC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoTEC.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoTEC/Pods-ProyectoTEC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAA1AFD270B529400AD32AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645A5A2A273DB5AC000CD6B2 /* FirebaseDatabase in Frameworks */,
+				645A5A2C273DB5AC000CD6B2 /* FirebaseFirestore in Frameworks */,
+				C473F2F26D3A4B020AAB913E /* Pods_ProyectoTEC.framework in Frameworks */,
+				645A5A28273DB5AC000CD6B2 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52AF5A5F944C3724D601D718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2411556C3B513E9A8CFB65E7 /* Pods_ProyectoTEC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		878590E598C06F6208574B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED7B191AFA85FE5BCCF0E717 /* Pods-ProyectoTEC.debug.xcconfig */,
+				58B1DCE690A4D6BD42CA714F /* Pods-ProyectoTEC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBAA1AF7270B529400AD32AB = {
+			isa = PBXGroup;
+			children = (
+				EBAA1B02270B529400AD32AB /* ProyectoTEC */,
+				EBAA1B01270B529400AD32AB /* Products */,
+				878590E598C06F6208574B1E /* Pods */,
+				52AF5A5F944C3724D601D718 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAA1B01270B529400AD32AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA1B00270B529400AD32AB /* ProyectoTEC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAA1B02270B529400AD32AB /* ProyectoTEC */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D573C27189AF700435630 /* ViewControllerCambiarContrasena.swift */,
+				EB1B5F262718831B00F9373F /* GoogleService-InfoLOL.plist */,
+				EBE5DACB270BC59700C7A8F3 /* ProyectoTEC.entitlements */,
+				EBAA1B03270B529400AD32AB /* AppDelegate.swift */,
+				EBAA1B05270B529400AD32AB /* SceneDelegate.swift */,
+				EB8682F3271510050076759B /* ViewControllerOlvidarContrasena.swift */,
+				EBAA1B07270B529400AD32AB /* ViewController.swift */,
+				EBAA1B09270B529400AD32AB /* Main.storyboard */,
+				6442236D274C46830026F3B0 /* ViewControllerCharts.swift */,
+				DA58267B27397E19002BA4F5 /* ViewControllerDoctorPaciente.swift */,
+				3EC75D6A27193443006FD151 /* ViewControllerCofigPerfil.swift */,
+				3E659FB42733A270000D3F54 /* CustomTableViewCell.swift */,
+				3EEAEAE92718A6AA00F3A2EF /* ViewControllerMenu.swift */,
+				3E659FB12733971E000D3F54 /* celdaSintomas.swift */,
+				EB3CF02D270FB039000E4508 /* ViewControllerRegistrate.swift */,
+				EBAA1B0C270B529B00AD32AB /* Assets.xcassets */,
+				EBAA1B0E270B529B00AD32AB /* LaunchScreen.storyboard */,
+				EBAA1B11270B529B00AD32AB /* Info.plist */,
+				64E90B2F274E070400410051 /* GoogleService-Info.plist */,
+				EB2D88DA272706C6006EC15A /* ViewControllerDoctorVistaGeneral.swift */,
+				DA582679273978F3002BA4F5 /* TableViewControllerDetallesPaciente.swift */,
+				645A5A31273DB6C6000CD6B2 /* fireBase.swift */,
+			);
+			path = ProyectoTEC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAA1AFF270B529400AD32AB /* ProyectoTEC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAA1B14270B529B00AD32AB /* Build configuration list for PBXNativeTarget "ProyectoTEC" */;
+			buildPhases = (
+				4662C422EF9E0A8876AC1F7F /* [CP] Check Pods Manifest.lock */,
+				EBAA1AFC270B529400AD32AB /* Sources */,
+				EBAA1AFD270B529400AD32AB /* Frameworks */,
+				EBAA1AFE270B529400AD32AB /* Resources */,
+				F5A5257B13F539DCB2B6F178 /* [CP] Embed Pods Frameworks */,
+				7B3E2036C1AACEB1F66E5C6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoTEC;
+			packageProductDependencies = (
+				645A5A27273DB5AC000CD6B2 /* FirebaseAuth */,
+				645A5A29273DB5AC000CD6B2 /* FirebaseDatabase */,
+				645A5A2B273DB5AC000CD6B2 /* FirebaseFirestore */,
+			);
+			productName = ProyectoTEC;
+			productReference = EBAA1B00270B529400AD32AB /* ProyectoTEC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAA1AF8270B529400AD32AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EBAA1AFF270B529400AD32AB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EBAA1AFB270B529400AD32AB /* Build configuration list for PBXProject "ProyectoTEC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAA1AF7270B529400AD32AB;
+			packageReferences = (
+				645A5A26273DB5AC000CD6B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EBAA1B01270B529400AD32AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAA1AFF270B529400AD32AB /* ProyectoTEC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAA1AFE270B529400AD32AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAA1B10270B529B00AD32AB /* LaunchScreen.storyboard in Resources */,
+				EB1B5F272718831B00F9373F /* GoogleService-InfoLOL.plist in Resources */,
+				64E90B30274E070400410051 /* GoogleService-Info.plist in Resources */,
+				EBAA1B0D270B529B00AD32AB /* Assets.xcassets in Resources */,
+				EBAA1B0B270B529400AD32AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4662C422EF9E0A8876AC1F7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoTEC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B3E2036C1AACEB1F66E5C6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoTEC/Pods-ProyectoTEC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoTEC/Pods-ProyectoTEC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoTEC/Pods-ProyectoTEC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A5257B13F539DCB2B6F178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoTEC/Pods-ProyectoTEC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoTEC/Pods-ProyectoTEC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoTEC/Pods-ProyectoTEC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAA1AFC270B529400AD32AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645A5A32273DB6C6000CD6B2 /* fireBase.swift in Sources */,
+				3EEAEAEA2718A6AA00F3A2EF /* ViewControllerMenu.swift in Sources */,
+				DA58267C27397E19002BA4F5 /* ViewControllerDoctorPaciente.swift in Sources */,
+				EBAA1B08270B529400AD32AB /* ViewController.swift in Sources */,
+				EB2D88DB272706C6006EC15A /* ViewControllerDoctorVistaGeneral.swift in Sources */,
+				EBAA1B04270B529400AD32AB /* AppDelegate.swift in Sources */,
+				6442236E274C46830026F3B0 /* ViewControllerCharts.swift in Sources */,
+				3EC75D6B27193443006FD151 /* ViewControllerCofigPerfil.swift in Sources */,
+				3E7D573D27189AF700435630 /* ViewControllerCambiarContrasena.swift in Sources */,
+				EB3CF02E270FB039000E4508 /* ViewControllerRegistrate.swift in Sources */,
+				3E659FB52733A270000D3F54 /* CustomTableViewCell.swift in Sources */,
+				3E659FB22733971E000D3F54 /* celdaSintomas.swift in Sources */,
+				EBAA1B06270B529400AD32AB /* SceneDelegate.swift in Sources */,
+				DA58267A273978F3002BA4F5 /* TableViewControllerDetallesPaciente.swift in Sources */,
+				EB8682F4271510050076759B /* ViewControllerOlvidarContrasena.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBAA1B09270B529400AD32AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAA1B0A270B529400AD32AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBAA1B0E270B529B00AD32AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAA1B0F270B529B00AD32AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBAA1B12270B529B00AD32AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBAA1B13270B529B00AD32AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAA1B15270B529B00AD32AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7B191AFA85FE5BCCF0E717 /* Pods-ProyectoTEC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProyectoTEC/ProyectoTEC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoTEC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TEC-de-Monterrey.ProyectoTEC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBAA1B16270B529B00AD32AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B1DCE690A4D6BD42CA714F /* Pods-ProyectoTEC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProyectoTEC/ProyectoTEC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProyectoTEC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TEC-de-Monterrey.ProyectoTEC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAA1AFB270B529400AD32AB /* Build configuration list for PBXProject "ProyectoTEC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAA1B12270B529B00AD32AB /* Debug */,
+				EBAA1B13270B529B00AD32AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAA1B14270B529B00AD32AB /* Build configuration list for PBXNativeTarget "ProyectoTEC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAA1B15270B529B00AD32AB /* Debug */,
+				EBAA1B16270B529B00AD32AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		645A5A26273DB5AC000CD6B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		645A5A27273DB5AC000CD6B2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 645A5A26273DB5AC000CD6B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		645A5A29273DB5AC000CD6B2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 645A5A26273DB5AC000CD6B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		645A5A2B273DB5AC000CD6B2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 645A5A26273DB5AC000CD6B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EBAA1AF8270B529400AD32AB /* Project object */;
+}
